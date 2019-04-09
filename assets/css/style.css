@@ -1,0 +1,77 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('/assets/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 1920px;
+}
+
+p {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    color: rgb(172, 44, 44);
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+
+/* Button */
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    margin: 0 auto;
+    margin-top: 250px;
+    display: block;
+
+
+
+/* Button Text */
+    background-color: #f44336; 
+    color: whitesmoke;
+    font-size: 20px;
+    border: 2px solid white;
+    font-family: 'Anton', sans-serif;
+}
+/* Button Hover */
+.button:hover {
+    background-color: black
+}
+/**************************/
+
+#go {
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#main {
+    padding-bottom: 285px;
+}
+
+#footer {
+    clear: both;
+    background: #f443;
+    padding: 30px;
+    color: bisque;
+    text-align: center;
+    position: static;
+}
