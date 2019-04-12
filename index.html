@@ -18,30 +18,51 @@
             <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 
 </head>
-<body>
-    <div id='container'>
-        <div id='main'>
-    <h1 class='header' id='reset-game'> Welcome to Sports Trivia!</h1>
-    
+
+  <body>
+  
+   
+    <div class="container">
+      <div class="header text-center clearfix">
+        <h1 class="text-muted" style="color: brown;">Sports trivia game</h1>
+      </div>
+
     <hr>
-    <br>
-        <p>
-            Want to put your sports knowledge to the test? This triva game is the right place for you. Work your brain with 
-            our tricky trivia questions and see how many you can get right. Challenge your friends and family with our sports trivia 
-            questions and see who comes out on top. Sports trivia is a great way to work your brain and even learn facts about sports your didn't know before.
-        </p>
-       
-            <button type='button' class="button" id="start-btn">Start</button>
-           
-    <h3 id='go'>Press 'Start' to get started!</h3>
 
-    
+      <p id="instructions">
+          Want to put your sports knowledge to the test? This triva game is the right place for you. Work your brain with 
+          our tricky trivia questions and see how many you can get right. Challenge your friends and family with our sports trivia 
+          questions and see who comes out on top. Sports trivia is a great way to work your brain and even learn facts about sports your didn't know before.
+      </p>
+
+        <div class="container" style="margin-top: 50px;">
+        <div id="game">
+          <p id="remaining-time" style="color:whitesmoke" class="lead">Remaining Time: <span id="timer"></span></p>
+<br>
+          <p id="question" class="lead"></p>
+<br>
         </div>
-    </div>
-    
-        <div id="footer">© Copyright 2019 Suraj A Patel</div>
+        <div id="results">
+        </div>
+      </div>
 
-    <script src="assets/javascript/game.js"></script>
-</body>
+      <div class="row">
+        <div id="choices" class="text-center">
+          <button type='button' class="button" id="start">Start</button>
 
+          <div id="options">
+            
+          </div>
+          
+        </div>
+      </div>
+
+
+    <!-- jQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- JS -->
+    <script src="./assets/javascript/game.js"></script>  
+
+
+  </body>
 </html>

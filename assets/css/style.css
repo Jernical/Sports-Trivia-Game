@@ -33,7 +33,7 @@ p {
     cursor: pointer;
 
     margin: 0 auto;
-    margin-top: 250px;
+    margin-top: 130px;
     display: block;
 
 
@@ -49,14 +49,8 @@ p {
 .button:hover {
     background-color: black
 }
+
 /**************************/
-
-#go {
-    text-align: center;
-    color: whitesmoke;
-    text-decoration: none;
-}
-
 #main {
     padding-bottom: 252px;
 }
@@ -68,4 +62,14 @@ p {
     color: bisque;
     text-align: center;
     position: static;
+}
+
+#results {
+    color: brown;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+#choices {
+    color: brown;
 }
